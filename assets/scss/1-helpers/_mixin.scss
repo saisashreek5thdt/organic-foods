@@ -4,12 +4,12 @@
 //=====================================
 //      TRANSITION BROWSER PREFIX
 //======================================
-@mixin cursor__transition {
-    transition: all linear .3s;
+@mixin cursor__transition {    
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 // =====================================
